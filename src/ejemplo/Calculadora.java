@@ -41,4 +41,12 @@ public class Calculadora {
     public int resta() {
         return a - b;
     }
+    
+    /**
+     * 
+     * @return Resultado de la multiplicación 
+     */
+    public int multiplicar() {
+        return a * b;
+    }
 }
