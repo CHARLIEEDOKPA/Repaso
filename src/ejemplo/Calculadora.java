@@ -21,5 +21,8 @@ public class Calculadora {
     public int sumar() {
         return a + b;
     }
-
+    
+    public int resta() {
+        return a - b;
+    }
 }
