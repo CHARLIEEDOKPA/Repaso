@@ -12,15 +12,31 @@ public class Calculadora {
 
     private int a;
     private int b;
+    
+    /**
+     * 
+     * @param a Operador 1
+     * @param b Operaor 2
+     */
 
     public Calculadora(int a, int b) {
         this.a = a;
         this.b = b;
     }
+    
+    /**
+     * 
+     * @return Resultado de la suma 
+     */
 
     public int sumar() {
         return a + b;
     }
+    
+    /**
+     * 
+     * @return Resultado de la resta 
+     */
     
     public int resta() {
         return a - b;
